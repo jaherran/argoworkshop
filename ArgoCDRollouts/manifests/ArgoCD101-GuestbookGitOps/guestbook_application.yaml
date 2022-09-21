@@ -11,3 +11,7 @@ spec:
   source:
     path: ArgoCDRollouts/manifests/ArgoCD101-GuestbookManifests/
     repoURL: https://github.com/jaherran/argoworkshop
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
